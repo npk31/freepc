@@ -147,10 +147,10 @@ class Page{
 
 
 (async () => {
-    const data = await getData("https://cdn.jsdelivr.net/gh/npk31/5e00a33e91a506cf9b5e05e2b7b48a9cec4b824ceae07574483449ce989cfaf1@main/data.json");
+    const data = await getData("https://raw.githubusercontent.com/npk31/5e00a33e91a506cf9b5e05e2b7b48a9cec4b824ceae07574483449ce989cfaf1/refs/heads/main/data.json");
     if (!data) return CreateError();
 
-    const notification = await getData("https://cdn.jsdelivr.net/gh/npk31/5e00a33e91a506cf9b5e05e2b7b48a9cec4b824ceae07574483449ce989cfaf1@main/notification.json");
+    const notification = await getData("https://raw.githubusercontent.com/npk31/5e00a33e91a506cf9b5e05e2b7b48a9cec4b824ceae07574483449ce989cfaf1/refs/heads/main/notification.json");
     if (!notification) return CreateError();
 
 
