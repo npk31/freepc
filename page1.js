@@ -207,7 +207,7 @@ function createPage1({ items, cart }) {
         // { src: 'https://i.imgur.com/3IKKda3.png', text: 'Bàn phím', type: "keyboard", select: false },
         // { src: 'https://i.imgur.com/9ePUuzP.png', text: 'Chuột', type: "mouse", select: false },
         // { src: 'https://i.imgur.com/X3YrjoU.png', text: 'Loa', type: "speaker", select: false },
-        { src: 'https://svgur.com/i/1ANj.svg', text: 'USB', type: "usb", select: false },
+        // { src: 'https://svgur.com/i/1ANj.svg', text: 'USB', type: "usb", select: false },
     ];
 
     // Thêm phần tử "Khác"
