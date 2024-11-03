@@ -170,7 +170,7 @@ function createPage1({ items, cart }) {
     const mt25 = document.createElement("div");
     mt25.className = "mt-25";
 
-    createCountDown_Tet(container);
+    // createCountDown_Tet(container);
 
     container.appendChild(mt25);
 
