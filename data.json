@@ -274,7 +274,7 @@
                 "value": 1990000,
                 "img": "https://i.imgur.com/FMGlt7r.png",
                 "preview": "https://memoryzone.com.vn/ram-pc-corsair-vengeance-rgb-rs-32gb-3200mhz-ddr4-2x16gb-cmg32gx4m2e3200c16?srsltid=AfmBOor09leKG4NimM4rYi6DfIrOX85UJ5Bre1IfbdtIlWAZC357f11B",
-                "daily": "MemoryZone"
+                "_daily": "MemoryZone"
             },
             {
                 "name": "Ram Corsair Vengeance RGB RS 32GB (2x16GB) DDR4 3200MHZ",
@@ -994,7 +994,7 @@
                 "value": 69000,
                 "img": "https://i.imgur.com/ScShz1B.png",
                 "preview": "https://nguyencongpc.vn/keo-tan-nhiet-cooler-master-mastergel-pro-v2?srsltid=AfmBOoo-Nb4xsIcyA6cn4pG_r3E4dmPrSDp0RHD-0NFoZ1wgbTq04ix6",
-                "daily": "Nguyễn Công"
+                "_daily": "Nguyễn Công"
             },
             {
                 "name": "Keo Tản nhiệt Cooler Master Mastergel Pro v2",
@@ -1015,7 +1015,7 @@
                 "value": 99000,
                 "img": "https://i.imgur.com/ScShz1B.png",
                 "preview": "https://hoanghapc.vn/keo-tan-nhiet-cooler-master-mastergel-pro-v2",
-                "daily": "Hoàng Hà PC"
+                "_daily": "Hoàng Hà PC"
             },
             {
                 "name": "Khung chống cong CPU Socket LGA1700",

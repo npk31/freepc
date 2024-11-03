@@ -753,6 +753,11 @@ mark{
     animation: showElement .5s 1 ease;
 }
 
+.countdown-tet{
+    width: 100%;
+    height: 350px;
+}
+
 @keyframes showElement{
     0%{
         opacity: 0;

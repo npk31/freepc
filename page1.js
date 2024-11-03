@@ -165,6 +165,13 @@ function createPage1({ items, cart }) {
     const container = document.createElement('div');
     container.className = 'container';
 
+    const mt25 = document.createElement("div");
+    mt25.className = "mt-25";
+
+    createCountDown_Tet(container);
+
+    container.appendChild(mt25);
+
     // Tạo div đầu tiên bên trong container
     const mt25_1 = document.createElement('div');
     mt25_1.className = 'mt-25';
