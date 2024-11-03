@@ -157,13 +157,15 @@ function createPage1({ items, cart }) {
     buttonCart.appendChild(iconCart);
     buttonCart.appendChild(spanCart);
 
-
     header.appendChild(spanHeader);
     header.appendChild(buttonCart);
 
     // Tạo div.container
     const container = document.createElement('div');
     container.className = 'container';
+
+    document.body.appendChild(header);
+    document.body.appendChild(container);
 
     const mt25 = document.createElement("div");
     mt25.className = "mt-25";
@@ -321,6 +323,4 @@ function createPage1({ items, cart }) {
     createItems(items.find(item => item.type === "cpu"), mt25_2);
     container.appendChild(mt25_2);
 
-    document.body.appendChild(header);
-    document.body.appendChild(container);
 }
