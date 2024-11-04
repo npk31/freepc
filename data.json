@@ -11,7 +11,7 @@
             },
             {
                 "name": "CPU Intel Core i5 12400F",
-                "value": 2899000,
+                "value": 2800000,
                 "img": "https://i.imgur.com/8bzwgWY.png",
                 "preview": "https://www.anphatpc.com.vn/cpu-intel-core-i5-12400f-up-to-4.40ghz-6-nhan-12-luong-18mb-cache-socket-1700-alder-lake_id40202.html?gad_source=1&gclid=CjwKCAjw6c63BhAiEiwAF0EH1K9Rcr855ek1KTrqDQ_bz_Cl-oix2sYwFIiJBhveWi1R28itJN3_XRoCQxkQAvD_BwE",
                 "daily": "An Phát PC"
@@ -100,7 +100,7 @@
             },
             {
                 "name": "ASUS TUF GAMING B760M-PLUS WIFI DDR4",
-                "value": 3949000,
+                "value": 3900000,
                 "img": "https://i.imgur.com/ommjiIL.png",
                 "preview": "https://www.anphatpc.com.vn/mainboard-asus-tuf-gaming-b760m-plus-wifi-ddr4.html",
                 "daily": "An Phát PC"
@@ -179,6 +179,41 @@
                 "img": "https://i.imgur.com/kOwp4tF.png",
                 "preview": "https://nguyencongpc.vn/card-man-hinh-asus-dual-geforce-rtx-4060-oc-edition-8gb-gddr6",
                 "_daily": "Nguyễn Công"
+            },
+            {
+                "name": "VGA Gigabyte RTX 4070 WINDFORCE OC V2 12GB",
+                "value": 17299000,
+                "img": "https://i.imgur.com/GeD0kPh.png",
+                "preview": "https://www.anphatpc.com.vn/vga-gigabyte-rtx-4070-windforce-oc-v2-12gb-n4070wf3ocv2-12gd.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "VGA Gigabyte RTX 4070 WINDFORCE TI SUPER OC V2 16GB",
+                "value": 25599000,
+                "img": "https://i.imgur.com/MMSyxAr.png",
+                "preview": "https://www.anphatpc.com.vn/vga-gigabyte-rtx-4070-ti-super-windforce-max-oc-16gb-gddr6x-n407tswf3-max-oc-16gd.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "VGA MSI RTX 4070 VENTUS 3X E1 OC 12GB",
+                "value": 17299000,
+                "img": "https://i.imgur.com/kh3HU8H.png",
+                "preview": "https://www.anphatpc.com.vn/vga-msi-rtx-4070-ventus-3x-e1-12gb-oc.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "VGA MSI RTX 4070 Ti SUPER SHADOW 3X OC 16GB",
+                "value": 25599000,
+                "img": "https://i.imgur.com/0coX8LP.png",
+                "preview": "https://www.anphatpc.com.vn/vga-msi-rtx-4070-ti-super-16gb-shadow-3x-oc.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "VGA Asus PRIME RTX 4070 SUPER 12GB GDDR6X",
+                "value": 20299000,
+                "img": "https://i.imgur.com/LzrFZmH.png",
+                "preview": "https://www.anphatpc.com.vn/vga-asus-prime-rtx-4070-super-12gb-gddr6x-prime-rtx4070s-12g.html",
+                "daily": "An Phát PC"
             }
         ]
     },
@@ -204,7 +239,7 @@
                 "value": 2499000,
                 "img": "https://i.imgur.com/MGR0Bhp.png",
                 "preview": "https://www.anphatpc.com.vn/ram-g-skill-trident-z-rgb-32gb-2x16gb-ddr4-3200mhz-f4-3200c16d-32gtzr.html",
-                "daily": "An Phát PC"
+                "_daily": "An Phát PC"
             },
             {
                 "name": "RAM G.SKILL TRIDENT Z RGB 32GB (2x16GB) DDR4 3200MHz",
@@ -243,7 +278,7 @@
             },
             {
                 "name": "Ram Corsair Vengeance RGB RS 32GB (2x16GB) DDR4 3200MHZ",
-                "value": 2549000,
+                "value": 2349000,
                 "img": "https://i.imgur.com/FMGlt7r.png",
                 "preview": "https://www.anphatpc.com.vn/ram-corsair-vengeance-rgb-rs-32gb-2x16gb-ddr4-3200mhz-cmg32gx4m2e3200c16_id39181.html",
                 "daily": "An Phát PC"
@@ -306,14 +341,14 @@
             },
             {
                 "name": "RAM Kingston FURY Beast RGB 32GB (2x16GB) DDR4 3200MHz",
-                "value": 2550000,
+                "value": 2300000,
                 "img": "https://i.imgur.com/kxWssOL.png",
                 "preview": "https://www.anphatpc.com.vn/ram-kingston-fury-beast-rgb-32gb-2x16gb-ddr4-3200mhz-kf432c16bb12ak2/32.html",
                 "daily": "An Phát PC"
             },
             {
                 "name": "RAM Kingston FURY Beast RGB 32GB (2x16GB) DDR4 3600MHz",
-                "value": 2600000,
+                "value": 2400000,
                 "img": "https://i.imgur.com/kxWssOL.png",
                 "preview": "https://www.anphatpc.com.vn/ram-kingston-fury-beast-rgb-32gb-2x16gb-ddr4-3600mhz-kf436c18bb2ak2/32.html",
                 "daily": "An Phát PC"
@@ -402,7 +437,7 @@
             },
             {
                 "name": "SSD Samsung 990 PRO 1TB M.2 PCIe NVMe Gen 4.0",
-                "value": 3549000,
+                "value": 3529000,
                 "img": "https://i.imgur.com/oP9ofFc.png",
                 "preview": "https://www.anphatpc.com.vn/o-cung-ssd-samsung-990-pro-1tb-m.2-nvme-m.2-2280-pcie-gen4.0-x4-mz-v9p1t0bw.html",
                 "daily": "An Phát PC"
@@ -430,7 +465,7 @@
             },
             {
                 "name": "SSD Samsung 990 PRO 1TB M.2 PCIe NVMe Gen 4.0",
-                "value": 3440000,
+                "value": 3480000,
                 "img": "https://i.imgur.com/oP9ofFc.png",
                 "preview": "https://www.samsung.com/vn/memory-storage/nvme-ssd/990-pro-1tb-nvme-pcie-gen-4-mz-v9p1t0bw/",
                 "daily": "SAMSUNG"
@@ -495,6 +530,34 @@
                 "img": "https://i.imgur.com/hZMiNgG.png",
                 "preview": "https://www.tncstore.vn/nguon-msi-mag-a750bn-750w-80-plus-bronze.html",
                 "_daily": "TNC Store"
+            },
+            {
+                "name": "Corsair RM850e - 850W - 80 PLUS GOLD",
+                "value": 3000000,
+                "img": "https://i.imgur.com/diYrOj3.png",
+                "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-corsair-rm850e-850w-atx-3.0-pcie-5.0-80-plus-gold-full-modul-cp-9020263-na.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "MSI MAG A850GL - 850W - 80 PLUS GOLD",
+                "value": 2700000,
+                "img": "https://i.imgur.com/czPQR5z.png",
+                "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-msi-mag-a850gl-850w-atx-3.0-pcie-5.0-full-modullar.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "Corsair RM1000e - 1000W - 80 PLUS GOLD",
+                "value": 4099000,
+                "img": "https://i.imgur.com/Hxcmmhh.png",
+                "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-corsair-rm1000e-1000w-atx-3.0-pcie-5.0-80-plus-gold-full-modul-cp-9020264-na-chinh-hang.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "MSI MPG A1000G - 1000W - 80 PLUS GOLD",
+                "value": 4199000,
+                "img": "https://i.imgur.com/wygP6rP.png",
+                "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-msi-mpg-a1000g-pcie-5.0-1000w-80-plus-gold-atx-3.0.html",
+                "daily": "An Phát PC"
             }
         ]
     },
@@ -563,6 +626,41 @@
                 "img": "https://i.imgur.com/PRtmXwc.png",
                 "preview": "https://titekvn.com/products/case-deepcool-ch560-digital-black",
                 "daily": "TITEK"
+            },
+            {
+                "name": "NZXT H7 FLOW ALL BLACK (RGB)",
+                "value": 3190000,
+                "img": "https://i.imgur.com/jd97Hh7.png",
+                "preview": "https://www.anphatpc.com.vn/vo-case-nzxt-h7-flow-rgb-2024-all-black-cm-h72fb-r1-atx-3-fan-rgb.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "NZXT H7 FLOW ALL WHITE (RGB)",
+                "value": 3190000,
+                "img": "https://i.imgur.com/AndQdk2.png",
+                "preview": "https://www.anphatpc.com.vn/vo-case-nzxt-h7-flow-rgb-2024-all-white-cm-h72fw-r1-atx-3-fan-rgb.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "NZXT H7 FLOW ALL BLACK",
+                "value": 2790000,
+                "img": "https://i.imgur.com/BZkvhE2.png",
+                "preview": "https://www.anphatpc.com.vn/vo-case-nzxt-h7-flow-2024-all-black-cm-h72fb-01-atx-3-fan.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "NZXT H7 FLOW ALL WHITE",
+                "value": 2790000,
+                "img": "https://i.imgur.com/PtWsPbT.png",
+                "preview": "https://www.anphatpc.com.vn/vo-case-nzxt-h7-flow-2024-all-white-cm-h72fw-01-atx-3-fan.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "",
+                "value": 390000,
+                "img": "",
+                "preview": "",
+                "daily": "An Phát PC"
             }
         ]
     },
@@ -626,7 +724,7 @@
                 "_daily": "Đức An Computer"
             },            
             {
-                "name": "Tản Nhiệt Khí ID-Cooling SE-214-XT ARGB Black",
+                "name": "ID-Cooling SE-214-XT Black (ARGB)",
                 "value": 400000,
                 "img": "https://i.imgur.com/jjf5cxd.png",
                 "preview": "https://www.anphatpc.com.vn/tan-nhiet-cpu-id-cooling-se-214-xt-argb.html",
@@ -708,6 +806,48 @@
                 "img": "https://i.imgur.com/eWJcA7G.png",
                 "preview": "https://kccshop.vn/tan-nhiet-cpu-id-cooling-se-214-xt-argb-white/",
                 "_daily": "KCCShop"
+            },
+            {
+                "name": "JONSBO CR-1000 EVO BLACK (ARGB)",
+                "value": 400000,
+                "img": "https://i.imgur.com/UvOt2vS.png",
+                "preview": "https://www.anphatpc.com.vn/tan-nhiet-khi-jonsbo-cr-1000-evo-black-argb.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "JONSBO CR-3000 BLACK (ARGB)",
+                "value": 940000,
+                "img": "https://i.imgur.com/dBbjGnW.png",
+                "preview": "https://www.anphatpc.com.vn/tan-nhiet-khi-jonsbo-cr-3000-black-argb.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "JONSBO CR-3000 WHITE (ARGB)",
+                "value": 940000,
+                "img": "https://i.imgur.com/dXCtrEF.png",
+                "preview": "https://www.anphatpc.com.vn/tan-nhiet-khi-jonsbo-cr-3000-black-argb.html",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "",
+                "value": 390000,
+                "img": "",
+                "preview": "",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "",
+                "value": 390000,
+                "img": "",
+                "preview": "",
+                "daily": "An Phát PC"
+            },
+            {
+                "name": "",
+                "value": 390000,
+                "img": "",
+                "preview": "",
+                "daily": "An Phát PC"
             }
         ]
     },
@@ -984,7 +1124,7 @@
             },
             {
                 "name": "Keo Tản nhiệt Cooler Master Mastergel Pro v2",
-                "value": 150000,
+                "value": 70000,
                 "img": "https://i.imgur.com/ScShz1B.png",
                 "preview": "https://www.anphatpc.com.vn/keo-tan-nhiet-cooler-master-mastergel-pro-v2.html",
                 "daily": "An Phát PC"

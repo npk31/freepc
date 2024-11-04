@@ -756,7 +756,7 @@ mark{
 .countdown-tet{
     position: relative;
     width: 100%;
-    height: 350px;
+    height: 320px;
 }
 
 @keyframes showElement{
@@ -859,6 +859,9 @@ mark{
         margin-top: 15px;
     }
 
+    .countdown-tet{
+        height: 225px;
+    }
 }
 
 @media (max-width: 770px){
@@ -1125,6 +1128,11 @@ mark{
         width: 95%;
 
     }
+
+    .countdown-tet{
+        height: 200px;
+    }
+
 }
 
 .mt-25{

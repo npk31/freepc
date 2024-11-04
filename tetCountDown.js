@@ -28,7 +28,7 @@ function createCountDown_Tet(parent){
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -60%);
+            transform: translate(-50%, -55%);
         }
         
         .tt-countdown{
@@ -43,6 +43,7 @@ function createCountDown_Tet(parent){
             height: 75px;
             background: rgba(40,50,61,.62);
             padding: 5px 10px;
+            margin-top: 25px;
         }
     
         .digit > div {
@@ -127,10 +128,10 @@ function createCountDown_Tet(parent){
         const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
     
-        document.getElementById("d").textContent = days; 
-        document.getElementById("h").textContent = hours; 
-        document.getElementById("m").textContent = minutes; 
-        document.getElementById("s").textContent = seconds; 
+        document.getElementById("d").textContent = days.toString().padStart(2, "0"); 
+        document.getElementById("h").textContent = hours.toString().padStart(2, "0"); 
+        document.getElementById("m").textContent = minutes.toString().padStart(2, "0"); 
+        document.getElementById("s").textContent = seconds.toString().padStart(2, "0"); 
     }
     
     // Create countdown elements
@@ -153,12 +154,24 @@ function createCountDown_Tet(parent){
                 div.querySelector(".label").style.fontSize = "21px";
             });
     
-        } else {
-            tt.style = "";
+        } else if (element.offsetWidth < 635){
+            tt.style.fontSize = "26px";
+            digit.style.height = "65px";
     
             digit.querySelectorAll("div").forEach((div) => {
-                div.querySelector(".number").style.fontSize = "";
-                div.querySelector(".label").style.fontSize = "";
+                div.querySelector(".number").style.fontSize = "32px";
+                div.querySelector(".label").style.fontSize = "12px";
+
+            });
+
+        } else {
+            tt.style = "";
+            digit.style = "";
+    
+            digit.querySelectorAll("div").forEach((div) => {
+                div.querySelector(".number").style = "";
+                div.querySelector(".label").style = "";
+
             });
         }
     }
