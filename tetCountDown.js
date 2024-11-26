@@ -113,6 +113,9 @@ function createCountDown_Tet(parent){
     
     // Function to run countdown
     function RunningCountDown() {
+        const checkElement = document.querySelector(".countdown-tet");
+        if (!checkElement) return;
+        
         const tetDate = new Date('2025-01-29T00:00:00');
         const currentTime = new Date();
         const timeDifference = tetDate - currentTime;
