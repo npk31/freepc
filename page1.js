@@ -203,7 +203,7 @@ function createPage1({ items, cart }) {
 
     const components = [
         { src: 'https://i.imgur.com/pIP1sX6.png', text: 'CPU', type: "cpu", select: true },
-        { src: 'https://i.imgur.com/EhtxGlC.png', text: 'Mainboard', type: "mainboard", select: false },
+        { src: 'https://i.imgur.com/7yKAsnD.png', text: 'Mainboard', type: "mainboard", select: false },
         { src: 'https://i.imgur.com/aheiR85.png', text: 'RAM', type: "ram", select: false },
         { src: 'https://i.imgur.com/c6nZyxk.png', text: 'SSD', type: "ssd", select: false },
         { src: 'https://i.imgur.com/TqAIoIm.png', text: 'VGA', type: "vga", select: false },
