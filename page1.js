@@ -211,7 +211,7 @@ function createPage1({ items, cart }) {
         { src: 'https://i.imgur.com/WULQPUg.png', text: 'Case', type: "case", select: false },
         { src: 'https://i.imgur.com/RwuNv60.png', text: 'Tản CPU', type: "cpu_fan", select: false },
         { src: 'https://i.imgur.com/RwuNv60.png', text: 'Tản Case', type: "case_fan", select: false },
-        { src: 'https://i.imgur.com/l53NRYI.png', text: 'Màn hình', type: "monitor", select: false },
+        // { src: 'https://i.imgur.com/l53NRYI.png', text: 'Màn hình', type: "monitor", select: false },
         // { src: 'https://i.imgur.com/3IKKda3.png', text: 'Bàn phím', type: "keyboard", select: false },
         // { src: 'https://i.imgur.com/9ePUuzP.png', text: 'Chuột', type: "mouse", select: false },
         // { src: 'https://i.imgur.com/X3YrjoU.png', text: 'Loa', type: "speaker", select: false },
