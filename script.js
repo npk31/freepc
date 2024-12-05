@@ -147,11 +147,11 @@ class Page{
 
 
 (async () => {
-    const data = await getData("https://raw.githubusercontent.com/npk31/5e00a33e91a506cf9b5e05e2b7b48a9cec4b824ceae07574483449ce989cfaf1/refs/heads/main/data.json");
+    const data = await getData("https://raw.githubusercontent.com/npk31/freepc/refs/heads/data/data.json");
     // const data = await getData("http://localhost:8000/data")
     if (!data) return CreateError();
 
-    const notification = await getData("https://raw.githubusercontent.com/npk31/5e00a33e91a506cf9b5e05e2b7b48a9cec4b824ceae07574483449ce989cfaf1/refs/heads/main/notification.json");
+    const notification = await getData("https://raw.githubusercontent.com/npk31/freepc/refs/heads/data/notification.json");
     if (!notification) return CreateError();
 
 
