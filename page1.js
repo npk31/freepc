@@ -92,9 +92,8 @@ function createItem({name, daily, value, img, preview}, parent){
 
         const ntf = CreateNotification("✅  Đã thêm thành công !");
 
-        let j = setTimeout(() => {
+        setTimeout(() => {
             document.body.removeChild(ntf);
-            clearTimeout(j);
         }, 2500);
         
     }
@@ -120,7 +119,7 @@ function createItems(data, parent){
     const itemsDiv = document.createElement('div');
     itemsDiv.className = 'items mx-25';
 
-    const itemsSorted = InsertionSort(data.items);
+    const itemsSorted = InsertionSort(data);
 
     itemsSorted.forEach(item => {
         if (!item.value || !item.name || !item.daily) return;
@@ -263,7 +262,7 @@ function createPage1({ items, cart }) {
             optDiv.classList.add("active-sl"); // Thêm lớp cho phần tử hiện tại
         
             // Tạo các mục mới
-            createItems(items.find(item => item.type === component.type), mt25_2);
+            createItems(items[component.type], mt25_2);
             
         };
         
@@ -296,7 +295,7 @@ function createPage1({ items, cart }) {
         optKhacDiv.classList.add("active-sl"); // Thêm lớp cho phần tử hiện tại
     
         // Tạo các mục mới
-        createItems(items.find(item => item.type === other.type), mt25_2);
+        createItems(items.other, mt25_2);
     }
 
     optKhacDiv.appendChild(pKhac);
@@ -319,7 +318,7 @@ function createPage1({ items, cart }) {
     mt25_2.appendChild(tt1_2);
 
 
-    createItems(items.find(item => item.type === "cpu"), mt25_2);
+    createItems(items.cpu, mt25_2);
     container.appendChild(mt25_2);
 
 }
