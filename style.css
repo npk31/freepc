@@ -136,7 +136,7 @@ header{
     background-size: 400% 400%; /* Animation Smoothness */
     animation: galaxy-animation 10s infinite alternate; /* Looping Animation */
 
-    &&::before{
+    /* &&::before{
         content: "";
         position: absolute;
         top: 0;
@@ -164,7 +164,7 @@ header{
           radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
         background-size: 200px 200px, 400px 400px;
         animation: stars-diagonal-slow 12s linear infinite;
-    }
+    } */
 }
 
 
