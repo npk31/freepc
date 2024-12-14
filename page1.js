@@ -22,7 +22,10 @@ function createItem({name, daily, value, img, preview}, parent){
 
     const itemDiv = document.createElement('div');
     itemDiv.className = 'item';
-    
+
+    const contentDiv = document.createElement("div");
+    contentDiv.className = 'content-div';
+
     const imgItemDiv = document.createElement('div');
     imgItemDiv.className = 'img-item';
 
@@ -99,11 +102,12 @@ function createItem({name, daily, value, img, preview}, parent){
     }
 
     imgItemDiv.appendChild(imgItem);
-    itemDiv.appendChild(imgItemDiv);
-    itemDiv.appendChild(titleDaily);
-    itemDiv.appendChild(nameItem);
-    itemDiv.appendChild(priceItem);
-    itemDiv.appendChild(buttonAddCart);
+    contentDiv.appendChild(imgItemDiv);
+    contentDiv.appendChild(titleDaily);
+    contentDiv.appendChild(nameItem);
+    contentDiv.appendChild(priceItem);
+    contentDiv.appendChild(buttonAddCart);
+    itemDiv.appendChild(contentDiv)
 
     parent.appendChild(itemDiv);
 }
@@ -159,18 +163,20 @@ function createPage1({ items, cart }) {
     header.appendChild(spanHeader);
     header.appendChild(buttonCart);
 
+    document.body.appendChild(header);
+
+    createCountDown_Tet(document.body);
+
     // Tạo div.container
     const container = document.createElement('div');
     container.className = 'container';
 
-    document.body.appendChild(header);
     document.body.appendChild(container);
 
     const mt25 = document.createElement("div");
     mt25.className = "mt-25";
 
     container.appendChild(mt25);
-    createCountDown_Tet(mt25);
 
     // Tạo div đầu tiên bên trong container
     const mt25_1 = document.createElement('div');
@@ -262,6 +268,18 @@ function createPage1({ items, cart }) {
             optDiv.classList.add("active-sl"); // Thêm lớp cho phần tử hiện tại
         
             // Tạo các mục mới
+            const ItemsArr = items[component.type];
+
+            if (!ItemsArr) {
+                const p = document.createElement("p");
+                p.textContent = "Danh mục đang được cập nhật!";
+                p.className = 'ntf-update';
+
+                mt25_2.appendChild(p);
+
+                return;
+            }
+            
             createItems(items[component.type], mt25_2);
             
         };
@@ -294,8 +312,20 @@ function createPage1({ items, cart }) {
         other.select = true;
         optKhacDiv.classList.add("active-sl"); // Thêm lớp cho phần tử hiện tại
     
+        const ItemsArr = items.other;
+
+        if (!ItemsArr) {
+            const p = document.createElement("p");
+            p.textContent = "Danh mục đang được cập nhật!";
+            p.className = 'ntf-update';
+
+            mt25_2.appendChild(p);
+
+            return;
+        }
+
         // Tạo các mục mới
-        createItems(items.other, mt25_2);
+        createItems(ItemsArr, mt25_2);
     }
 
     optKhacDiv.appendChild(pKhac);

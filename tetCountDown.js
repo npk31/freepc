@@ -22,6 +22,17 @@ function createCountDown_Tet(parent){
             height: 100%;
             background-size: 100% 100%;
             position: absolute;
+
+            &:before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+                pointer-events: none; 
+            }
         }
     
         .countdown-content{

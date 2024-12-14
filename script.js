@@ -132,6 +132,17 @@ function CreateNotification(content){
     return divElement;
 }
 
+function scrollContent(event) {
+    event.preventDefault();
+
+    const scrollAmount = event.deltaY * 4.314;
+
+    document.body.scrollBy({
+      top: scrollAmount, 
+      behavior: 'smooth'
+    });
+  }
+
 
 class Page{
     constructor (execute, data){
@@ -155,11 +166,12 @@ class Page{
     if (!notification) return CreateError();
 
 
-
     const page1 = new Page(createPage1, {items: data});
     const page2 = new Page(createPage2, {ntf: notification, page1: page1.create.bind(page1)});
 
     page1.data.cart = page2.create.bind(page2);
     page1.create();
+
+    document.addEventListener('wheel', scrollContent);
 
 })();

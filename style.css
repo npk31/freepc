@@ -16,7 +16,43 @@ body{
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    overflow-y: auto;
+    overflow-y: hidden;
+    background: linear-gradient(to left bottom, #0A0068, #26007B,  #42008D, #5E00A0, #7A00B2);
+}
+
+
+@keyframes stars-diagonal {
+    0% { transform: translate(-100%, -100%); }
+    100% { transform: translate(100%, 100%); }
+  }
+  
+  @keyframes stars-diagonal-slow {
+    0% { transform: translate(-100%, -100%); }
+    100% { transform: translate(100%, 100%); }
+  }
+  
+  /* Keyframes for galaxy gradient animation */
+  @keyframes galaxy-animation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+  
+
+:root{
+    --text-color: #fff;
+    --tt1-color: rgb(255, 51, 156);
+    --tt2-color: rgb(242, 100, 65);
+    --item-bg-color: rgb(0, 0, 0, 0.6);
+    --item-img-bg-color: transparent;
+    --card-color-1: linear-gradient(45deg, #ffbc00, #ff0058);
+    --card-color-2: linear-gradient(315deg, #03a9f4, #ff0058);
+    --card-color-3: linear-gradient(315deg, #4dff03, #00d0ff);
+    --daily-text-color: #009dff;
+    --price-bg-color: linear-gradient(135deg, #6A8D92, #4F8FB7, #2A5F8A);
+    --btn-border-color: #84f;
+    --galaxy-color: linear-gradient(to left bottom, #003697, #0026ff, #201f41, #2A292B);
+    --active-btn-color: #56e;
+    --rm-btn-color: #c23
 }
 
 .error{
@@ -26,6 +62,7 @@ body{
     transform: translate(-50%, -50%);
     z-index: 4;
     font-family: sans-serif;
+    color: var(--text-color);
 }
 
 /* HTML: <div class="loader"></div> */
@@ -37,7 +74,7 @@ body{
     display: block;
     width: 50px;
     aspect-ratio: 1;
-    color: #ff0011;
+    color: #4592fd;
     position: relative;
     animation: l40 .5s infinite alternate;
   }
@@ -78,7 +115,7 @@ body{
 
 header{
     width: 100%;
-    border-bottom: 0.5px solid #c3c3c3;
+    /* border-bottom: 0.5px solid #c3c3c3; */
     padding-top: 20px;
     padding-bottom: 15px;
     display: flex;
@@ -89,6 +126,44 @@ header{
         margin-left: 50px;
         font-weight: 600;
         cursor: pointer;
+        color: #fff;
+        z-index: 10;
+    }
+    background: radial-gradient(circle, 
+        #00ccff, /* Neon Blue */
+        #003366 30%, /* Dark Blue */
+        #000000 70%); /* Black Space */
+    background-size: 400% 400%; /* Animation Smoothness */
+    animation: galaxy-animation 10s infinite alternate; /* Looping Animation */
+
+    &&::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        background-image: 
+          radial-gradient(circle, rgba(255, 255, 255, 0.8) 2px, transparent 2px),
+          radial-gradient(circle, rgba(255, 255, 255, 0.5) 1px, transparent 1px);
+        background-size: 150px 150px, 300px 300px;
+        animation: stars-diagonal 8s linear infinite;
+    }
+
+    &&&::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        background-image: 
+          radial-gradient(circle, rgba(255, 255, 255, 0.4) 2px, transparent 2px),
+          radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+        background-size: 200px 200px, 400px 400px;
+        animation: stars-diagonal-slow 12s linear infinite;
     }
 }
 
@@ -101,13 +176,16 @@ header{
     margin-right: 50px;
     border: none;
     cursor: pointer;
+    color: #fff;
+    z-index: 10;
+
     &:hover{
         opacity: .5;
     }
     &>span{
         font-family: "Poppins", sans-serif;
         font-size: 18px;
-        color: rgb(0, 145, 255);
+        color: rgb(126, 124, 255);
         margin-left: 5px;
     }
 }
@@ -127,7 +205,7 @@ header{
         font-size: 18px;
         font-family: sans-serif;
         font-weight: 700;
-        color: #ed3939
+        color: var(--tt1-color) !important;
     }
 }
 
@@ -145,6 +223,7 @@ header{
     margin-top: 15px;
     font-weight: 700;
     letter-spacing: 0.35px;
+    color: var(--tt2-color) !important;
 }
 
 .tt4{
@@ -153,6 +232,7 @@ header{
     margin-top: 15px;
     font-weight: 700;
     letter-spacing: 0.35px;
+    color: var(--text-color);
 }
 
 .options{
@@ -174,7 +254,7 @@ header{
     font-family: sans-serif;
     border: 1px solid #c3c3c3;
     border-radius: 3.5px;
-    color: #656565;
+    color: var(--text-color) !important;
     margin-right: 25px;
     cursor: pointer;
 
@@ -228,15 +308,70 @@ header{
 }
 
 .item{
+    position: relative;
+    display: flex;
     width: 200px;
     overflow: hidden;
     margin: 25px 0px;
-    background: #F5F5F5;
-    padding-bottom: 25px;
+    padding: 5px;
+    overflow: hidden;
+    transition: 0.25s ease;
+
+    &&&&:hover{
+        transform: scale(1.05);
+    }
+
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    &&::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        filter: blur(30px);
+        z-index: 1;
+    }
+
+    &&&> .content-div{
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        background: var(--item-bg-color) !important;
+        padding-bottom: 25px; 
+    }
+}
+
+.item:nth-child(3n+1){
+    &::before, &&::after{
+        background: var(--card-color-2);
+    }
+}
+
+.item:nth-child(3n+2){
+    &::before, &&::after{
+        background: var(--card-color-1);
+    }
+}
+
+.item:nth-child(3n+3){
+    &::before, &&::after{
+        background: var(--card-color-3);
+    }
 }
 
 .close-cart-icon{
-    background: url("https://i.imgur.com/taJoyHU.png") no-repeat;
+    background: url("https://raw.githubusercontent.com/npk31/freepc/refs/heads/asset/taJoyHU.svg") no-repeat;
     background-size: 100% 100%;
     width: 25px;
     height: 25px;
@@ -246,7 +381,7 @@ header{
 .img-item{
     width: 200px;
     height: 200px;
-    background: #fff;
+    background: var(--item-img-bg-color) !important;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -258,7 +393,7 @@ header{
         flex: none;
     }
 
-    &::before{
+    /* &::before{
         content: "";
         position: absolute;
         width: 100%;
@@ -310,7 +445,7 @@ header{
             left: 50%;
             transform: translate(-50%, -50%);
         }
-    }
+    } */
 }
 
 .img{
@@ -323,7 +458,7 @@ header{
     font-size: 15px;
     font-family: sans-serif;
     font-weight: 700;
-    color: #494949;
+    color: var(--daily-text-color);
     margin-left: 20px;
     margin-top: 10px;
     z-index: 3;
@@ -343,10 +478,15 @@ header{
 
     &>a{
         text-decoration: none;
-        color: #000;
+        color: var(--text-color);
         &&:hover{
-            opacity: .6;
-            color:rgb(0, 47, 255);
+            text-shadow: 
+            2px 2px 10px #6A4C93, /* Tím sáng */
+            0 0 15px #F5A7B8, /* Hồng sáng */
+            0 0 25px #00B140, /* Xanh lá sáng */
+            3px 3px 40px #F5A7B8, /* Hồng neon */
+            0 0 60px #0D1B2A, /* Xanh đen đậm */
+            0 0 80px #6A4C93; /* Tím đậm */
         }
     }
 }
@@ -354,11 +494,15 @@ header{
 .price-item{
     margin-left: 20px;
     margin-top: 17.5px;
-    color: rgb(20, 53, 195);
     font-family: sans-serif;
     font-weight: 700;
     letter-spacing: 0.35px;
     font-size: 17.5px;
+    background-image: var(--price-bg-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
 }
 
 .add-cart{
@@ -369,18 +513,18 @@ header{
     font-family: sans-serif;
     font-size: 15px;
     background: transparent;
-    border: 1.5px solid #5739ed;
-    border-radius: 8px;
+    border: 2px solid var(--btn-border-color);
+    border-radius: 15px;
     outline: none;
     margin-top: 17.5px;
     margin-left: 17.5px;
     font-family: sans-serif;
-    color: rgb(20, 53, 195);
+    color: var(--text-color);
     font-weight: 700;
     cursor: pointer;
 
     &:active{
-        background: #2dff85;
+        background: var(--active-btn-color);
         opacity: .7;
         border: 1px solid #000;
     }
@@ -608,7 +752,7 @@ header{
     align-self: center;
     left: 57.5%;
     position: sticky;
-    color: blue;
+    color: var(--rm-btn-color);
     font-size: 15px;
     font-family: sans-serif;
     font-weight: 500;
@@ -704,11 +848,10 @@ header{
 }
 
 .cart-icon{
-    background: url("https://i.imgur.com/EhtxGlC.png") no-repeat;
+    background: url("https://raw.githubusercontent.com/npk31/freepc/refs/heads/asset/cart.svg") no-repeat;
     background-size: 100% 100%;
     width: 20px;
     height: 20px;
-    display: block;
 }
 
 #cart{
@@ -729,14 +872,14 @@ mark{
 
 .ntf-content{
     position: fixed;
-    top: 0px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 6;
     width: 375px;
     height: 50px;
-    border-radius: 0px 0px 7.5px 7.5px;
-    background: linear-gradient(to top, #835af1, #686ee2, #835af1, #5f5dbd);
+    border-radius: 7.5px;
+    background: linear-gradient(to left bottom, #003697, #0026ff, #201f41, #2A292B);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -756,7 +899,8 @@ mark{
 .countdown-tet{
     position: relative;
     width: 100%;
-    height: 320px;
+    height: 400px;
+    z-index: -1;
 }
 
 @keyframes showElement{
@@ -766,6 +910,19 @@ mark{
     100%{
         opacity: 1;
     }
+}
+
+.ntf-update {
+    width: 100%;
+    height: 490px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: var(--text-color);
 }
 
 
@@ -781,23 +938,22 @@ mark{
     }
 
     .item{
-        width: 150px;
+        width: 175px;
         overflow: hidden;
         margin: 25px 0px;
-        background: #F5F5F5;
     }
 
     .img-item{
-        width: 150px;
-        height: 150px;
+        width: 175px;
+        height: 175px;
     }
     
     .title-daily{
-        font-size: 12.5px;
+        font-size: 13.5px;
     }
 
     .name-item{
-        font-size: 11.5px;
+        font-size: 12.5px;
         font-weight: 700;
     }
 
@@ -929,6 +1085,10 @@ mark{
         font-size: 13px;
         padding-bottom: 5px;
     }
+
+    .ntf-update{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 576px){
@@ -996,7 +1156,7 @@ mark{
     }
 
     .active-sl{
-        border: 0.5px solid #ff0000;
+        border: 2px solid #ff0000;
         box-shadow: rgba(136, 165, 191, 0.48) 3px 1px 8px 0px, rgba(255, 255, 255, 0.8) -3px -1px 8px 0px;
         opacity: .9;
     
@@ -1010,33 +1170,41 @@ mark{
     .items{
         grid-template-columns: repeat(2, auto);
         padding-left: 5px;
+        column-gap: 20px;
     }
 
     .item{
-        width: 175px;
+        width: 150px;
         overflow: hidden;
         margin: 25px 0px;
-        background: #F5F5F5;
     }
     
     .img-item{
-        width: 175px;
-        height: 175px;
+        width: 150px;
+        height: 150px;
     }
 
 
     .name-item{
         font-weight: 700;
         width: 77.5%;
+        font-size: 11.5px;
     }
 
     .price-item{
+        font-size: 12px;
         margin-top: 10px;
+        font-size: 12px;
     }
 
 
     .add-cart{
         margin-top: 12.5px;
+        font-size: 11px;
+    }
+
+    .content-div{
+        padding-bottom: 10px;
     }
 
     .prt1-tb1{
@@ -1137,6 +1305,7 @@ mark{
 
 .mt-25{
     margin-top: 25px;
+    position: relative;
 }
 
 .mx-25{
@@ -1150,3 +1319,5 @@ mark{
 .w-30{
     width: 30%;
 }
+
+
