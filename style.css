@@ -17,6 +17,7 @@ body{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to left bottom, #0A0068, #26007B,  #42008D, #5E00A0, #7A00B2);
+    overflow-y: auto;
 }
 
 
@@ -932,10 +933,6 @@ mark{
 }
 
 @media (max-width: 1225px) {
-    body{
-        overflow-y: scroll;
-    }
-    
     .items{
         grid-template-columns: repeat(4, auto);
     }
