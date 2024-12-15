@@ -104,11 +104,11 @@
         {
             "tempId": "70456a9310e8dcbf8adbe87d9ea5ad44cb75b497ac997266ee1ce2340740be90",
             "name": "ASUS ROG Strix GeForce RTX 4070 SUPER",
-            "img": "https://i.imgur.com/JhdmlDV.png",
+            "img": "https://i.imgur.com/OyI3zeq.png",
             "daily": "GearVN",
             "value": 22990000,
             "preview": "https://gearvn.com/products/card-man-hinh-asus-rog-strix-geforce-rtx-4070-super-o12g",
-            "id": "edb160dbd4bda834a2f9b4ca093643c0aae3d4430c937e4f17c7bae02334ea79"
+            "type": "vga"
         },
         {
             "tempId": "a67988b5ea0c8c9713b6605cf2a963d9cb96678aef6b83857fe5142c876962ee",
