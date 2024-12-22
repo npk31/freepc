@@ -214,10 +214,11 @@ function createPage2({ntf, page1}) {
 
 
 
-
+    document.body.classList.add("bg-color-2");
 
     // Tạo header
     const header = document.createElement('header');
+    header.style.background = "transparent"
 
     const spanBuildPC = document.createElement('span');
     spanBuildPC.textContent = 'Build PC';

@@ -138,6 +138,10 @@ function createItems(data, parent){
 
 
 function createPage1({ items, cart }) {
+    const checkBg2 = document.querySelector(".bg-color-2");
+    if (checkBg2) checkBg2.classList.remove("bg-color-2");
+
+
     const header = document.createElement('header');
 
     const spanHeader = document.createElement('span');

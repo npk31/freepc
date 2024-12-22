@@ -20,16 +20,6 @@ body{
     overflow-y: auto;
 }
 
-
-@keyframes stars-diagonal {
-    0% { transform: translate(-100%, -100%); }
-    100% { transform: translate(100%, 100%); }
-  }
-  
-  @keyframes stars-diagonal-slow {
-    0% { transform: translate(-100%, -100%); }
-    100% { transform: translate(100%, 100%); }
-  }
   
   /* Keyframes for galaxy gradient animation */
   @keyframes galaxy-animation {
@@ -113,9 +103,13 @@ body{
   }
     
 
+.bg-color-2{
+    background: linear-gradient(180deg, #57C601 0%, #320049 100%), linear-gradient(121.28deg, #007762 0%, #5200FF 100%), linear-gradient(341.1deg, #FF0000 7.52%, #1700A4 77.98%), radial-gradient(49.82% 80.51% at 49.82% 50%, #820097 0%, #FF3D00 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #0B0037 100%);
+    background-blend-mode: color-dodge, overlay, difference, difference, normal;
+}
+
 header{
     width: 100%;
-    /* border-bottom: 0.5px solid #c3c3c3; */
     padding-top: 20px;
     padding-bottom: 15px;
     display: flex;
@@ -129,42 +123,9 @@ header{
         color: #fff;
         z-index: 10;
     }
-    background: radial-gradient(circle, 
-        #00ccff, /* Neon Blue */
-        #003366 30%, /* Dark Blue */
-        #000000 70%); /* Black Space */
-    background-size: 400% 400%; /* Animation Smoothness */
-    animation: galaxy-animation 10s infinite alternate; /* Looping Animation */
+    background: #000;
+    /* animation: galaxy-animation 10s infinite alternate;  */
 
-    /* &&::before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: transparent;
-        background-image: 
-          radial-gradient(circle, rgba(255, 255, 255, 0.8) 2px, transparent 2px),
-          radial-gradient(circle, rgba(255, 255, 255, 0.5) 1px, transparent 1px);
-        background-size: 150px 150px, 300px 300px;
-        animation: stars-diagonal 8s linear infinite;
-    }
-
-    &&&::after{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: transparent;
-        background-image: 
-          radial-gradient(circle, rgba(255, 255, 255, 0.4) 2px, transparent 2px),
-          radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
-        background-size: 200px 200px, 400px 400px;
-        animation: stars-diagonal-slow 12s linear infinite;
-    } */
 }
 
 
@@ -541,7 +502,7 @@ header{
     text-align: left;
     padding: 10px 15px;
     font-family: "Roboto", sans-serif;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .title-tb1{
@@ -834,7 +795,7 @@ header{
     background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
     border: none;
     border-radius: 5px;
-    color: #fff;
+    color: #000000be;
     font-family: sans-serif;
     font-weight: 700;
 
@@ -878,7 +839,7 @@ mark{
     z-index: 6;
     width: 375px;
     height: 50px;
-    border-radius: 7.5px;
+    border-radius: 2.5px;
     background: linear-gradient(to left bottom, #003697, #0026ff, #201f41, #2A292B);
     display: flex;
     justify-content: center;
@@ -982,6 +943,7 @@ mark{
 
     .ntf{
         margin-top: 25px;
+        border-radius: 0px;
     }
 
     .md-w-30{
@@ -1017,6 +979,11 @@ mark{
 
     .countdown-tet{
         height: 250px;
+    }
+    
+    .total-value-cart{
+        border-radius: 0px;
+        width: 100%;
     }
 }
 
@@ -1219,6 +1186,7 @@ mark{
 
         >.name{
             font-size: 8.5px;
+            font-family: sans-serif;
         }
     }
     
@@ -1293,8 +1261,8 @@ mark{
     .total-value-cart{
         font-size: 13px;
         margin-top: -15px;
-        width: 95%;
-
+        border-radius: 0px;
+        width: 96.25%;
     }
 
     .countdown-tet{
