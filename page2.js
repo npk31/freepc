@@ -332,9 +332,9 @@ function createPage2({ntf, page1}) {
     }
 
 
-    ntf.forEach(notice => {
+    ntf.forEach(contentNTF => {
         const li = document.createElement('li');
-        li.textContent = notice;
+        li.textContent = contentNTF;
         ulNotice.appendChild(li);
     });
 
