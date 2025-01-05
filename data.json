@@ -4,9 +4,11 @@
             "tempId": "737caef86901db4737eb1a7aa8ac4fc4b7dc295329cad2d7f60fe4bc92191909",
             "name": "Intel Core I5 12400F",
             "img": "https://i.imgur.com/8bzwgWY.png",
-            "daily": "An Phát",
-            "value": 2899000,
-            "preview": "https://www.anphatpc.com.vn/cpu-intel-core-i5-12400f-up-to-4.40ghz-6-nhan-12-luong-18mb-cache-socket-1700-alder-lake_id40202.html"
+            "daily": "GearVN",
+            "value": 2900000,
+            "preview": "ss",
+            "id": "737caef86901db4737eb1a7aa8ac4fc4b7dc295329cad2d7f60fe4bc92191909",
+            "type": "cpu"
         }
     ],
     "mainboard": [
@@ -17,7 +19,8 @@
             "daily": "An Phát",
             "value": 3899000,
             "preview": "https://www.anphatpc.com.vn/mainboard-asus-tuf-gaming-b760m-plus-wifi-ddr4.html",
-            "type": "mainboard"
+            "type": "mainboard",
+            "id": "ddf0add1b7343ecdf236f1af3815cd4916c53fbcdeea5d505b35ead92dacae38"
         }
     ],
     "psu": [
@@ -28,7 +31,8 @@
             "daily": "An Phát",
             "value": 2699000,
             "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-msi-mag-a850gl-850w-atx-3.0-pcie-5.0-full-modullar.html",
-            "type": "psu"
+            "type": "psu",
+            "id": "488d8bacab90e742f510bb65baf23a7aaaa25d4179a061e086fceedc42ffb156"
         },
         {
             "tempId": "befd5633576ec46167cdcf27a5308335b500b1cab5c6b3a9e7bcd6d1f3d352d0",
@@ -51,15 +55,6 @@
     ],
     "case": [
         {
-            "tempId": "3f45552e9044c8db8bf935d7ed15fad28653641d1fa3bc697c5b7220087b8b7f",
-            "name": "Corsair 4000D Airflow TG (Black)",
-            "img": "https://i.imgur.com/SeJfisx.png",
-            "daily": "An Phát",
-            "value": 1999000,
-            "preview": "https://www.anphatpc.com.vn/vo-may-tinh-corsair-4000d-airflow-tg-black.html",
-            "type": "case"
-        },
-        {
             "tempId": "3f7805d35c0f29afcea074b4adf47087dd6576c3ca3df7297032a12a5938ee99",
             "name": "NZXT H7 FLOW ALL BLACK (RGB)",
             "img": "https://i.imgur.com/jd97Hh7.png",
@@ -70,12 +65,12 @@
         },
         {
             "tempId": "8cfdb094503a9d9e60d9fde2cb6222de8e94d90c7642343214a595010e2a7212",
+            "id": "8cfdb094503a9d9e60d9fde2cb6222de8e94d90c7642343214a595010e2a7212",
             "name": "NZXT H7 FLOW ALL WHITE (RGB)",
             "img": "https://i.imgur.com/AndQdk2.png",
             "daily": "An Phát",
             "value": 3190000,
-            "preview": "https://www.anphatpc.com.vn/vo-case-nzxt-h7-flow-rgb-2024-all-white-cm-h72fw-r1-atx-3-fan-rgb.html",
-            "id": "aed7e03c52617a656c011d892e9cfa86989c1f90b13883b76008972cc9bfd233"
+            "preview": "https://www.anphatpc.com.vn/vo-case-nzxt-h7-flow-rgb-2024-all-white-cm-h72fw-r1-atx-3-fan-rgb.html"
         }
     ],
     "ram": [
@@ -86,12 +81,14 @@
             "daily": "An Phát",
             "value": 999000,
             "preview": "https://www.anphatpc.com.vn/ram-kingston-hyperx-fury-16gb-1x16gb-ddr4-bus-3200mhz_id36952.html",
-            "type": "ram"
+            "type": "ram",
+            "id": "348289d4cc7aaadaebd1887549f629bc85ce9ffa712cc49e90bf9940898f214f"
         }
     ],
     "ssd": [
         {
             "tempId": "f0aecd0fb4042f96e9df4ca97818a042b11ab7411875b57dd89b3c70a20a1b1a",
+            "id": "f0aecd0fb4042f96e9df4ca97818a042b11ab7411875b57dd89b3c70a20a1b1a",
             "name": "Samsung 990 PRO (1TB)",
             "img": "https://i.imgur.com/oP9ofFc.png",
             "daily": "An Phát",
@@ -106,27 +103,9 @@
             "daily": "An Phát",
             "value": 2549000,
             "preview": "https://www.anphatpc.com.vn/o-cung-ssd-kingston-kc3000-1024gb-nvme-pcie-gen-4.0-kc3000s-1024g_id39537.html",
-            "type": "ssd"
+            "type": "ssd",
+            "id": "947df147b01a6b74d8d73fc1d7c2196a204a1402d41cd744838d00f8f2d4eb68"
         }
     ],
-    "vga": [
-        {
-            "tempId": "70456a9310e8dcbf8adbe87d9ea5ad44cb75b497ac997266ee1ce2340740be90",
-            "name": "ASUS ROG Strix GeForce RTX 4070 SUPER",
-            "img": "https://i.imgur.com/OyI3zeq.png",
-            "daily": "GearVN",
-            "value": 22990000,
-            "preview": "https://gearvn.com/products/card-man-hinh-asus-rog-strix-geforce-rtx-4070-super-o12g",
-            "type": "vga"
-        },
-        {
-            "tempId": "a67988b5ea0c8c9713b6605cf2a963d9cb96678aef6b83857fe5142c876962ee",
-            "name": "MSI GAMING X SLIM GeForce RTX 4070 SUPER",
-            "img": "https://i.imgur.com/HJrCcgF.png",
-            "daily": "GearVN",
-            "value": 19990000,
-            "preview": "https://gearvn.com/products/card-man-hinh-msi-geforce-rtx-4070-super-12g-gaming-x-slim",
-            "id": "ca1d22c4b80f5d749c0199284eeeb600c42734ca7c0a038774b08c60fb1ae28b"
-        }
-    ]
+    "vga": []
 }
