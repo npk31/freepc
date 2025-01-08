@@ -300,9 +300,8 @@ function createPage1({ items, cart }) {
     pKhac.textContent = 'Khác';
 
     optKhacDiv.onclick = () => {
-        mt25_2.replaceChildren();
-    
         if (other.select) return;
+        mt25_2.replaceChildren();
 
         const prevSelect = components.find(item => item.select);
     
@@ -318,7 +317,7 @@ function createPage1({ items, cart }) {
     
         const ItemsArr = items.other;
 
-        if (!ItemsArr) {
+        if (!ItemsArr || ItemsArr.length < 1) {
             const p = document.createElement("p");
             p.textContent = "Danh mục đang được cập nhật!";
             p.className = 'ntf-update';

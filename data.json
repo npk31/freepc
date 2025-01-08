@@ -1,39 +1,29 @@
 {
     "cpu": [
         {
-            "tempId": "737caef86901db4737eb1a7aa8ac4fc4b7dc295329cad2d7f60fe4bc92191909",
-            "name": "Intel Core I5 12400F",
-            "img": "https://i.imgur.com/8bzwgWY.png",
-            "daily": "GearVN",
-            "value": 2900000,
-            "preview": "ss",
-            "id": "737caef86901db4737eb1a7aa8ac4fc4b7dc295329cad2d7f60fe4bc92191909",
+            "tempId": "dc8f7e413841d3bcb9a872a14712ddebc01ba459a63989681fef8a0ec0b2ae9f",
+            "name": "Ryzen 5 7600X",
+            "img": "https://i.imgur.com/eeTPWHb.png",
+            "daily": "An Phát",
+            "value": 5689000,
+            "preview": "https://www.anphatpc.com.vn/cpu-amd-ryzen-5-7600x-6-nhan-12-luong-boost-5-3-ghz-38-mb-cache-tdp-105w.html",
+            "id": "dc8f7e413841d3bcb9a872a14712ddebc01ba459a63989681fef8a0ec0b2ae9f",
             "type": "cpu"
         }
     ],
     "mainboard": [
         {
-            "tempId": "c1c44e643834c3183e3eddc428782f2d5916f05a7c7e260905111c5784c89ded",
-            "name": "ASUS TUF GAMING B760M-PLUS WIFI DDR4",
-            "img": "https://i.imgur.com/ommjiIL.png",
+            "tempId": "bae2c0283ec008ee161a00c042c725f45d02e9027921b4f8f9586c0e3c69a6bb",
+            "name": "Gigabyte X870 EAGLE WIFI_7 DDR5 ",
+            "img": "https://i.imgur.com/oO6UmbU.png",
             "daily": "An Phát",
-            "value": 3899000,
-            "preview": "https://www.anphatpc.com.vn/mainboard-asus-tuf-gaming-b760m-plus-wifi-ddr4.html",
-            "type": "mainboard",
-            "id": "ddf0add1b7343ecdf236f1af3815cd4916c53fbcdeea5d505b35ead92dacae38"
+            "value": 7499000,
+            "preview": "https://www.anphatpc.com.vn/mainboard-gigabyte-x870-eagle-wifi7-ddr5.html",
+            "id": "bae2c0283ec008ee161a00c042c725f45d02e9027921b4f8f9586c0e3c69a6bb",
+            "type": "mainboard"
         }
     ],
     "psu": [
-        {
-            "tempId": "db105cfc7db91755868ae3a6b591611ca5e7db363ecf39f13c1f1fdf817d7154",
-            "name": "MSI MAG A850GL (850W Gold)",
-            "img": "https://i.imgur.com/wygP6rP.png",
-            "daily": "An Phát",
-            "value": 2699000,
-            "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-msi-mag-a850gl-850w-atx-3.0-pcie-5.0-full-modullar.html",
-            "type": "psu",
-            "id": "488d8bacab90e742f510bb65baf23a7aaaa25d4179a061e086fceedc42ffb156"
-        },
         {
             "tempId": "befd5633576ec46167cdcf27a5308335b500b1cab5c6b3a9e7bcd6d1f3d352d0",
             "name": "Asus TUF Gaming (1000W Gold)",
@@ -55,34 +45,52 @@
     ],
     "case": [
         {
-            "tempId": "3f7805d35c0f29afcea074b4adf47087dd6576c3ca3df7297032a12a5938ee99",
-            "name": "NZXT H7 FLOW ALL BLACK (RGB)",
-            "img": "https://i.imgur.com/jd97Hh7.png",
-            "daily": "An Phát",
-            "value": 3190000,
-            "preview": "https://www.anphatpc.com.vn/vo-case-nzxt-h7-flow-rgb-2024-all-black-cm-h72fb-r1-atx-3-fan-rgb.html",
-            "id": "d8c12bd3c69b49098f49b833c1cce53d80b2ab0b32b17d2dae6998c11a7db9b8"
+            "tempId": "80677a472932080e91002f2740694565d2fd5f452f2c5356b52d63a5637f268c",
+            "name": "NZXT H7 Flow White",
+            "img": "https://i.imgur.com/PtWsPbT.png",
+            "daily": "Hoàng Hà PC",
+            "value": 2990000,
+            "preview": "https://hoanghapc.vn/vo-case-nzxt-h7-wh?srsltid=AfmBOop8G1MfJCktuKSG4rQIABP-XfXFWtKi-dyJJ1rlfg-kqwXUhI1z",
+            "id": "cd6bbdd4a6b48f3ece73368ec4912154efbe9e1d7584139f8a541c6eb41f1c51"
         },
         {
-            "tempId": "8cfdb094503a9d9e60d9fde2cb6222de8e94d90c7642343214a595010e2a7212",
-            "id": "8cfdb094503a9d9e60d9fde2cb6222de8e94d90c7642343214a595010e2a7212",
-            "name": "NZXT H7 FLOW ALL WHITE (RGB)",
-            "img": "https://i.imgur.com/AndQdk2.png",
-            "daily": "An Phát",
-            "value": 3190000,
-            "preview": "https://www.anphatpc.com.vn/vo-case-nzxt-h7-flow-rgb-2024-all-white-cm-h72fw-r1-atx-3-fan-rgb.html"
+            "tempId": "d5f24d230c8cad40aa53bcfdea50f54c67cf491982bb10d3096e07e101d0ae92",
+            "name": "NZXT H7 Flow Black",
+            "img": "https://i.imgur.com/BZkvhE2.png",
+            "daily": "Hoàng Hà PC",
+            "value": 2990000,
+            "preview": "https://hoanghapc.vn/vo-case-nzxt-h7-flow-black-2024",
+            "id": "c25113c013b2c797ed970b064c52923a875790afe63034c7b1f9af2226c8089a"
         }
     ],
     "ram": [
         {
             "tempId": "e84b08f05529fe6f3f63741b4baacd95631e2bdef2f8f984c99c052dd5415706",
-            "name": "Kingston FURY Beast 1x16GB (DDR4 3200MHz)",
+            "name": "Kingston FURY Beast 1x16GB (DDR5 5600MHz)",
             "img": "https://i.imgur.com/rJpsa48.png",
             "daily": "An Phát",
-            "value": 999000,
-            "preview": "https://www.anphatpc.com.vn/ram-kingston-hyperx-fury-16gb-1x16gb-ddr4-bus-3200mhz_id36952.html",
+            "value": 1549000,
+            "preview": "https://www.anphatpc.com.vn/ram-kingston-fury-beast-16gb-1x16gb-ddr5-5600mhz-kf556c40bb-16.html",
             "type": "ram",
-            "id": "348289d4cc7aaadaebd1887549f629bc85ce9ffa712cc49e90bf9940898f214f"
+            "id": "e84b08f05529fe6f3f63741b4baacd95631e2bdef2f8f984c99c052dd5415706"
+        },
+        {
+            "tempId": "93ea62450f0244304fa22b5ef22ce0823818db4ab5474b1f277a23318942ec0f",
+            "name": "Kingston FURY Beast 2x16GB (DDR5 5600MHz)",
+            "img": "https://i.imgur.com/sXa9w82.png",
+            "daily": "An Phát",
+            "value": 2849000,
+            "preview": "https://www.anphatpc.com.vn/ram-laptop-kingston-fury-beast-kf556c40bbk2-32-32gb-2x16gb-ddr5-5600mhz.html",
+            "id": "b6408edd9a4ee6a806a8e6f460eacccba3cc37f727dbd10a7a03361a1935ca93"
+        },
+        {
+            "tempId": "e84b08f05529fe6f3f63741b4baacd95631e2bdef2f8f984c99c052dd5415706",
+            "name": "Kingston FURY Beast 1x16GB (DDR5 5600MHz)",
+            "img": "https://i.imgur.com/rJpsa48.png",
+            "daily": "TITEK",
+            "value": 1399000,
+            "preview": "https://titekvn.com/products/ram-desktop-kingston-fury-beast-kf552c40bb-16-16gb-1x16gb-ddr5-5200mhz",
+            "id": "f879d1b99eb718f9ac8cf022d1ae83752d4540f62e3143c3a86aa0404af4e3c6"
         }
     ],
     "ssd": [

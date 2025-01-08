@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to left bottom, #0A0068, #26007B,  #42008D, #5E00A0, #7A00B2);
+    background: var(--body-bg-color);
     overflow-y: auto;
 }
 
@@ -43,7 +43,8 @@ body{
     --galaxy-color: linear-gradient(to left bottom, #003697, #0026ff, #201f41, #2A292B);
     --active-btn-color: #56e;
     --rm-btn-color: #c23;
-    --bg-color-2: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);;
+    --bg-color-2: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    --body-bg-color: linear-gradient(to bottom, #2c527b, #235184, #1a508d, #114f95, #0d4d9d);
 }
 
 .error{
@@ -172,6 +173,7 @@ header{
 }
 
 .container{
+    position: relative;
     width: 90%;
     height: auto;
     display: flex;
