@@ -148,7 +148,7 @@ class Page{
 
 
 (async () => {
-    const data = await getData("https://raw.githubusercontent.com/npk31/freepc/refs/heads/data/data.json");
+    const data = await getData("https://raw.githubusercontent.com/npk31/freepc/refs/heads/data/data.json?v=1736379231");
     // const data = await getData("http://localhost:8000/data")
     if (!data) return CreateError();
 
