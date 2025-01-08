@@ -218,8 +218,8 @@ function createPage1({ items, cart }) {
         { src: 'https://i.imgur.com/TqAIoIm.png', text: 'VGA', type: "vga", select: false },
         { src: 'https://i.imgur.com/PNI8h31.png', text: 'Nguồn', type: "psu", select: false },
         { src: 'https://i.imgur.com/WULQPUg.png', text: 'Case', type: "case", select: false },
-        { src: 'https://i.imgur.com/RwuNv60.png', text: 'Tản CPU', type: "cpu_fan", select: false },
-        { src: 'https://i.imgur.com/RwuNv60.png', text: 'Tản Case', type: "case_fan", select: false },
+        // { src: 'https://i.imgur.com/RwuNv60.png', text: 'Tản CPU', type: "cpu_fan", select: false },
+        // { src: 'https://i.imgur.com/RwuNv60.png', text: 'Tản Case', type: "case_fan", select: false },
         // { src: 'https://i.imgur.com/l53NRYI.png', text: 'Màn hình', type: "monitor", select: false },
         // { src: 'https://i.imgur.com/3IKKda3.png', text: 'Bàn phím', type: "keyboard", select: false },
         // { src: 'https://i.imgur.com/9ePUuzP.png', text: 'Chuột', type: "mouse", select: false },
@@ -274,7 +274,7 @@ function createPage1({ items, cart }) {
             // Tạo các mục mới
             const ItemsArr = items[component.type];
 
-            if (!ItemsArr) {
+            if (!ItemsArr || ItemsArr.length < 1) {
                 const p = document.createElement("p");
                 p.textContent = "Danh mục đang được cập nhật!";
                 p.className = 'ntf-update';
