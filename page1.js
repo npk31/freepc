@@ -169,8 +169,6 @@ function createPage1({ items, cart }) {
 
     document.body.appendChild(header);
 
-    createCountDown_Tet(document.body);
-
     // Tạo div.container
     const container = document.createElement('div');
     container.className = 'container';

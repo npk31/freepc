@@ -1,110 +1,166 @@
 {
     "cpu": [
         {
-            "tempId": "dc8f7e413841d3bcb9a872a14712ddebc01ba459a63989681fef8a0ec0b2ae9f",
-            "name": "Ryzen 5 7600X",
-            "img": "https://i.imgur.com/eeTPWHb.png",
-            "daily": "An Phát",
-            "value": 5689000,
-            "preview": "https://www.anphatpc.com.vn/cpu-amd-ryzen-5-7600x-6-nhan-12-luong-boost-5-3-ghz-38-mb-cache-tdp-105w.html",
-            "id": "dc8f7e413841d3bcb9a872a14712ddebc01ba459a63989681fef8a0ec0b2ae9f",
+            "tempId": "05f1529238e7cc1a927237ba3c373fc50c5644ba42e8c144b131b519e2a3ea08",
+            "name": "Intel I5-12400F",
+            "img": "https://i.imgur.com/8bzwgWY.png",
+            "daily": "GearVN",
+            "value": 2890000,
+            "preview": "https://gearvn.com/products/intel-core-i5-12400f",
+            "id": "05f1529238e7cc1a927237ba3c373fc50c5644ba42e8c144b131b519e2a3ea08",
             "type": "cpu"
+        },
+        {
+            "tempId": "05f1529238e7cc1a927237ba3c373fc50c5644ba42e8c144b131b519e2a3ea08",
+            "name": "Intel I5-12400F",
+            "img": "https://i.imgur.com/8bzwgWY.png",
+            "daily": "An Phát PC",
+            "value": 2899000,
+            "preview": "https://www.anphatpc.com.vn/cpu-intel-core-i5-12400f-up-to-4.40ghz-6-nhan-12-luong-18mb-cache-socket-1700-alder-lake_id40202.html",
+            "id": "f50ea02404bb98f2afda3260bb9c135159cba95704496abc3aca103974132563"
         }
     ],
     "mainboard": [
         {
-            "tempId": "bae2c0283ec008ee161a00c042c725f45d02e9027921b4f8f9586c0e3c69a6bb",
-            "name": "Gigabyte X870 EAGLE WIFI_7 DDR5 ",
-            "img": "https://i.imgur.com/oO6UmbU.png",
-            "daily": "An Phát",
-            "value": 7499000,
-            "preview": "https://www.anphatpc.com.vn/mainboard-gigabyte-x870-eagle-wifi7-ddr5.html",
-            "id": "bae2c0283ec008ee161a00c042c725f45d02e9027921b4f8f9586c0e3c69a6bb",
-            "type": "mainboard"
+            "tempId": "c00c9690aa454981bd9209895b351302cb9d130e29e40f22fd6c2d9769ddc8ee",
+            "name": " ASUS TUF GAMING B760M-PLUS WIFI DDR4",
+            "img": "https://i.imgur.com/ommjiIL.png",
+            "daily": "GearVN",
+            "value": 3990000,
+            "preview": "https://gearvn.com/products/asus-tuf-gaming-b760m-plus-wifi-d4",
+            "id": "1e8616f86ff4e48d7f41ed693f4a54b8df1e438f0c5ddcac23e76467ebe6348f"
+        },
+        {
+            "tempId": "c00c9690aa454981bd9209895b351302cb9d130e29e40f22fd6c2d9769ddc8ee",
+            "name": " ASUS TUF GAMING B760M-PLUS WIFI DDR4",
+            "img": "https://i.imgur.com/ommjiIL.png",
+            "daily": "An Phát PC",
+            "value": 3899000,
+            "preview": "https://www.anphatpc.com.vn/mainboard-asus-tuf-gaming-b760m-plus-wifi-ddr4.html",
+            "id": "ecc3e416a10ef934d89e0939bc626ab5e3adc34766868bf387c9071a24e52f48"
         }
     ],
     "psu": [
         {
+            "tempId": "db105cfc7db91755868ae3a6b591611ca5e7db363ecf39f13c1f1fdf817d7154",
+            "name": "MSI MAG A850GL (850W Gold)",
+            "img": "https://i.imgur.com/wygP6rP.png",
+            "daily": "GearVN",
+            "value": 2990000,
+            "preview": "https://gearvn.com/products/nguon-may-tinh-msi-mag-a850gl-pcie5-80-plus-gold-full-modular-850w",
+            "id": "5f091b31f7582f4ca70b50bcd41cf05e1897806f58e355f29a1edcc6d37d8e76"
+        },
+        {
+            "tempId": "db105cfc7db91755868ae3a6b591611ca5e7db363ecf39f13c1f1fdf817d7154",
+            "name": "MSI MAG A850GL (850W Gold)",
+            "img": "https://i.imgur.com/wygP6rP.png",
+            "daily": "An Phát PC",
+            "value": 2799000,
+            "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-msi-mag-a850gl-850w-atx-3.0-pcie-5.0-full-modullar.html",
+            "id": "97452caa808dd4ff59fefd58194f15167a101ede9b7369894b93ab3dc44a5dce"
+        },
+        {
             "tempId": "befd5633576ec46167cdcf27a5308335b500b1cab5c6b3a9e7bcd6d1f3d352d0",
             "name": "Asus TUF Gaming (1000W Gold)",
-            "img": "https://i.imgur.com/42glOCu.png",
-            "daily": "An Phát",
-            "value": 4399000,
+            "img": "https://i.postimg.cc/Jz9Ls8D6/nguon-may-tinh-asus-tuf-gaming-1000w-gold-atx-3-0-pcie-5-0-full-modular-removebg-preview.png",
+            "daily": "An Phát PC",
+            "value": 4299000,
             "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-asus-tuf-gaming-1000w-gold-atx-3.0-pcie-5.0-full-modular.html",
-            "id": "360d9a2939fe3ea21c821b22fdbff2a826c7bc2a9accf244a54ebbe8b36d2f57"
-        }
-    ],
-    "case": [
-        {
-            "tempId": "80677a472932080e91002f2740694565d2fd5f452f2c5356b52d63a5637f268c",
-            "name": "NZXT H7 Flow White",
-            "img": "https://i.imgur.com/PtWsPbT.png",
-            "daily": "Hoàng Hà PC",
-            "value": 2990000,
-            "preview": "https://hoanghapc.vn/vo-case-nzxt-h7-wh?srsltid=AfmBOop8G1MfJCktuKSG4rQIABP-XfXFWtKi-dyJJ1rlfg-kqwXUhI1z",
-            "id": "cd6bbdd4a6b48f3ece73368ec4912154efbe9e1d7584139f8a541c6eb41f1c51"
+            "id": "befd5633576ec46167cdcf27a5308335b500b1cab5c6b3a9e7bcd6d1f3d352d0",
+            "type": "psu"
         },
         {
-            "tempId": "d5f24d230c8cad40aa53bcfdea50f54c67cf491982bb10d3096e07e101d0ae92",
-            "name": "NZXT H7 Flow Black",
-            "img": "https://i.imgur.com/BZkvhE2.png",
-            "daily": "Hoàng Hà PC",
-            "value": 2990000,
-            "preview": "https://hoanghapc.vn/vo-case-nzxt-h7-flow-black-2024",
-            "id": "c25113c013b2c797ed970b064c52923a875790afe63034c7b1f9af2226c8089a"
+            "tempId": "374c7ea68608da160ea31869c30cf1da3e837656fdfd477ba817e7227942dba7",
+            "name": "Corsair RM850e (850W Gold)",
+            "img": "https://product.hstatic.net/1000333506/product/tai_xuong__3__3e6f4c54b400402dab9b88a9580ab3be_48c60c985a6549c4ad1d0650de4d4010_grande.png",
+            "daily": "An Phát PC",
+            "value": 3000000,
+            "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-corsair-rm850e-atx-3.1-cybenetics-gold-full-modul-cp-9020296-na.html",
+            "id": "374c7ea68608da160ea31869c30cf1da3e837656fdfd477ba817e7227942dba7",
+            "type": "psu"
+        },
+        {
+            "tempId": "6cd8121c58d3ca6c6754786d15367291cb6da94d1fbb9e0443a895407fe4d6e6",
+            "name": "Corsair RM1000e (1000W Gold)",
+            "img": "https://i.postimg.cc/sg1jBKnX/nguon-corsair-rm1000e-atx-3-1-cybenetics-gold-152494-removebg-preview.png",
+            "daily": "An Phát PC",
+            "value": 4199000,
+            "preview": "https://www.anphatpc.com.vn/nguon-may-tinh-corsair-rm1000e-atx-3.1-cybenetics-gold-full-modul-cp-9020297-na.html",
+            "id": "6cd8121c58d3ca6c6754786d15367291cb6da94d1fbb9e0443a895407fe4d6e6",
+            "type": "psu"
         }
     ],
+    "case": [],
     "ram": [
         {
-            "tempId": "e84b08f05529fe6f3f63741b4baacd95631e2bdef2f8f984c99c052dd5415706",
-            "name": "Kingston FURY Beast 1x16GB (DDR5 5600MHz)",
-            "img": "https://i.imgur.com/rJpsa48.png",
-            "daily": "An Phát",
-            "value": 1549000,
-            "preview": "https://www.anphatpc.com.vn/ram-kingston-fury-beast-16gb-1x16gb-ddr5-5600mhz-kf556c40bb-16.html",
-            "type": "ram",
-            "id": "e84b08f05529fe6f3f63741b4baacd95631e2bdef2f8f984c99c052dd5415706"
+            "tempId": "6526db71464bf6626ea8e80edc68bae024f94e236d8953e3ece6af2d8bc9c44c",
+            "name": "CORSAIR VENGEANCE RGB RS 32GB (2x16GB) DDR4 3600Mhz ",
+            "img": "https://i.imgur.com/FMGlt7r.png",
+            "daily": "GearVN",
+            "value": 2590000,
+            "preview": "https://gearvn.com/products/32gb-ddr4-2x16gb-3200-ram-corsair-vengeance-pro-rs-rgb",
+            "id": "6526db71464bf6626ea8e80edc68bae024f94e236d8953e3ece6af2d8bc9c44c",
+            "type": "mainboard"
         },
         {
-            "tempId": "93ea62450f0244304fa22b5ef22ce0823818db4ab5474b1f277a23318942ec0f",
-            "name": "Kingston FURY Beast 2x16GB (DDR5 5600MHz)",
-            "img": "https://i.imgur.com/sXa9w82.png",
-            "daily": "An Phát",
-            "value": 2849000,
-            "preview": "https://www.anphatpc.com.vn/ram-laptop-kingston-fury-beast-kf556c40bbk2-32-32gb-2x16gb-ddr5-5600mhz.html",
-            "id": "b6408edd9a4ee6a806a8e6f460eacccba3cc37f727dbd10a7a03361a1935ca93"
-        },
-        {
-            "tempId": "e84b08f05529fe6f3f63741b4baacd95631e2bdef2f8f984c99c052dd5415706",
-            "name": "Kingston FURY Beast 1x16GB (DDR5 5600MHz)",
-            "img": "https://i.imgur.com/rJpsa48.png",
-            "daily": "TITEK",
-            "value": 1399000,
-            "preview": "https://titekvn.com/products/ram-desktop-kingston-fury-beast-kf552c40bb-16-16gb-1x16gb-ddr5-5200mhz",
-            "id": "f879d1b99eb718f9ac8cf022d1ae83752d4540f62e3143c3a86aa0404af4e3c6"
+            "tempId": "6526db71464bf6626ea8e80edc68bae024f94e236d8953e3ece6af2d8bc9c44c",
+            "name": "CORSAIR VENGEANCE RGB RS 32GB (2x16GB) DDR4 3600Mhz ",
+            "img": "https://i.imgur.com/FMGlt7r.png",
+            "daily": "An Phát PC",
+            "value": 2399000,
+            "preview": "https://www.anphatpc.com.vn/ram-corsair-vengeance-rgb-rs-32gb-2x16gb-ddr4-bus-3600mhz-cmg32gx4m2d3600c18.html",
+            "id": "4e30d7775f9b350f2984ec9ecbdd95d512023bda6a48019cc5b9133f2e35b71e"
         }
     ],
     "ssd": [
         {
             "tempId": "f0aecd0fb4042f96e9df4ca97818a042b11ab7411875b57dd89b3c70a20a1b1a",
-            "id": "f0aecd0fb4042f96e9df4ca97818a042b11ab7411875b57dd89b3c70a20a1b1a",
             "name": "Samsung 990 PRO (1TB)",
             "img": "https://i.imgur.com/oP9ofFc.png",
-            "daily": "An Phát",
-            "value": 3499000,
-            "preview": "https://www.anphatpc.com.vn/o-cung-ssd-samsung-990-pro-1tb-m.2-nvme-m.2-2280-pcie-gen4.0-x4-mz-v9p1t0bw.html",
-            "type": "ssd"
+            "daily": "GearVN",
+            "value": 3490000,
+            "preview": "https://gearvn.com/products/o-cung-ssd-samsung-990-pro-1tb-m-2-pcie-gen4-nvme-mz-v9p1t0bw",
+            "id": "0422f57479508e03bfc72ef3a77c64b272512867211f223bd2027ee410704b92"
         },
         {
-            "tempId": "cbf8e713dd8de28dce125aada2bb09c975b8fc14cf6df816983430d260feb9d7",
-            "name": "Kingston KC3000 (1TB)",
-            "img": "https://i.imgur.com/C11CvcR.png",
-            "daily": "An Phát",
-            "value": 2549000,
-            "preview": "https://www.anphatpc.com.vn/o-cung-ssd-kingston-kc3000-1024gb-nvme-pcie-gen-4.0-kc3000s-1024g_id39537.html",
-            "type": "ssd",
-            "id": "947df147b01a6b74d8d73fc1d7c2196a204a1402d41cd744838d00f8f2d4eb68"
+            "tempId": "f0aecd0fb4042f96e9df4ca97818a042b11ab7411875b57dd89b3c70a20a1b1a",
+            "name": "Samsung 990 PRO (1TB)",
+            "img": "https://i.imgur.com/oP9ofFc.png",
+            "daily": "An Phát PC",
+            "value": 3490000,
+            "preview": "https://www.anphatpc.com.vn/o-cung-ssd-samsung-990-pro-1tb-m.2-nvme-m.2-2280-pcie-gen4.0-x4-mz-v9p1t0bw.html",
+            "id": "8d36cca58e956b0dbd314952e13ba0886c85e71df8d4fa17bba3349cee29480a"
         }
     ],
-    "vga": []
+    "vga": [
+        {
+            "tempId": "3e17eacca191fdfc060c967471dcc86c7ccea4ebaf9ecc4616750d91d08d285c",
+            "name": "MSI GeForce RTX 5070 12G VANGUARD SOC",
+            "img": "https://i.postimg.cc/D0ssKnX9/250-12004-tnc-store-card-man-hinh-msi-geforce-rtx-5070-12g-vanguard-soc-2-removebg-preview.png",
+            "daily": "GearVN",
+            "value": 23490000,
+            "preview": "https://gearvn.com/products/card-man-hinh-msi-geforce-rtx-5070-12g-vanguard-soc",
+            "id": "3e17eacca191fdfc060c967471dcc86c7ccea4ebaf9ecc4616750d91d08d285c",
+            "type": "vga"
+        },
+        {
+            "tempId": "5c89ff51e8ad44eb002999fd68fd6f5629d1fd5c6a2b2a462ee78fbbb4fe0e82",
+            "name": "ASUS TUF Gaming RTX 5070 12GB GDDR7 OC",
+            "img": "https://i.postimg.cc/qRqVFF2H/fwebp-dd6767cb85444278a73efce143ebf534-grande.webp",
+            "daily": "An Phát PC",
+            "value": 24499000,
+            "preview": "https://www.anphatpc.com.vn/asus-tuf-gaming-rtx-5070-12gb-gddr7-oc-edition-tuf-rtx5070-o12g-gaming.html",
+            "id": "c683914a4f9455e13eddbd2c76258d85c8efa9ad83d502941cebca67833dd893"
+        },
+        {
+            "tempId": "3e17eacca191fdfc060c967471dcc86c7ccea4ebaf9ecc4616750d91d08d285c",
+            "name": "MSI GeForce RTX 5070 12G VANGUARD SOC",
+            "img": "https://i.postimg.cc/D0ssKnX9/250-12004-tnc-store-card-man-hinh-msi-geforce-rtx-5070-12g-vanguard-soc-2-removebg-preview.png",
+            "daily": "An Phát PC",
+            "value": 23499000,
+            "preview": "https://www.anphatpc.com.vn/vga-msi-geforce-rtx-5070-12g-vanguard-soc-launch-edition.html",
+            "id": "3e17eacca191fdfc060c967471dcc86c7ccea4ebaf9ecc4616750d91d08d285c",
+            "type": "vga"
+        }
+    ]
 }
