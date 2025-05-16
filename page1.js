@@ -30,7 +30,7 @@ function createItem({name, daily, value, img, preview}, parent){
     imgItemDiv.className = 'img-item';
 
     imgItemDiv.onclick = () => {
-        location.href = preview;
+        window.open(preview, '_blank');
     }
 
     const imgItem = document.createElement('img');
@@ -47,6 +47,7 @@ function createItem({name, daily, value, img, preview}, parent){
     const linkItem = document.createElement('a');
     linkItem.href = preview;
     linkItem.innerHTML = name;
+    linkItem.target = "_blank";
 
     nameItem.appendChild(linkItem);
 

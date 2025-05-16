@@ -12,6 +12,7 @@ function createPage2({ntf, page1}) {
         productCell.className = 'prt1-tb1';
         const productLinkImg = document.createElement('a');
         productLinkImg.href = preview;
+        productLinkImg.target = "_blank";
         productLinkImg.className = 'img';
         productLinkImg.style.background = `url("${img}") no-repeat`
         productCell.appendChild(productLinkImg);
@@ -19,6 +20,7 @@ function createPage2({ntf, page1}) {
         const productLinkName = document.createElement('a');
         productLinkName.className = 'name';
         productLinkName.href = preview;
+        productLinkName.target = "_blank";
         productLinkName.textContent = name;
         productCell.appendChild(productLinkName);
         trProduct.appendChild(productCell);
