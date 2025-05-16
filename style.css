@@ -38,13 +38,13 @@ body{
     --card-color-2: linear-gradient(315deg, #03a9f4, #ff0058);
     --card-color-3: linear-gradient(315deg, #4dff03, #00d0ff);
     --daily-text-color: #009dff;
-    --price-bg-color: linear-gradient(135deg, #6A8D92, #4F8FB7, #2A5F8A);
+    --price-bg-color: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4);
     --btn-border-color: #84f;
     --galaxy-color: linear-gradient(to left bottom, #003697, #0026ff, #201f41, #2A292B);
     --active-btn-color: #56e;
     --rm-btn-color: #c23;
     --bg-color-2: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-    --body-bg-color: linear-gradient(to bottom, #2c527b, #235184, #1a508d, #114f95, #0d4d9d);
+    --body-bg-color: linear-gradient(to bottom, #1f1c2c, #928dab);
 }
 
 .error{
@@ -125,7 +125,7 @@ header{
         color: #fff;
         z-index: 10;
     }
-    background: #000;
+    background: transparent;
     /* animation: galaxy-animation 10s infinite alternate;  */
 
 }

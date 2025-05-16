@@ -88,7 +88,7 @@ function countingAlgorithm(items) {
         }
     });
 
-    return daily; // Trả về kết quả để xem dữ liệu đã xử lý
+    return daily; 
 }
 
 
@@ -148,8 +148,12 @@ class Page{
 
 
 (async () => {
-    const data = await getData("https://raw.githubusercontent.com/npk31/freepc/refs/heads/data/data.json?v=1736379231");
+    const baseUrl = "https://raw.githubusercontent.com/npk31/freepc/refs/heads/data/data.json";
+    const fullUrl = `${baseUrl}?v=${Date.now()}`;
+
+    const data = await getData(fullUrl);
     // const data = await getData("http://localhost:8000/data")
+
     if (!data) return CreateError();
 
     const notification = await getData("https://raw.githubusercontent.com/npk31/freepc/refs/heads/data/notification.json");

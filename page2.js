@@ -171,7 +171,7 @@ function createPage2({ntf, page1}) {
         
         const center = document.createElement("div");
         center.classList.add("absolute-center");
-        parent.appendChild(center);
+        document.body.appendChild(center);
     
         const tt4 = document.createElement("p");
         tt4.className = "tt4";

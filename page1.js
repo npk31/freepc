@@ -215,7 +215,7 @@ function createPage1({ items, cart }) {
         { src: 'https://i.imgur.com/c6nZyxk.png', text: 'SSD', type: "ssd", select: false },
         { src: 'https://i.imgur.com/TqAIoIm.png', text: 'VGA', type: "vga", select: false },
         { src: 'https://i.imgur.com/PNI8h31.png', text: 'Nguồn', type: "psu", select: false },
-        { src: 'https://i.imgur.com/WULQPUg.png', text: 'Case', type: "case", select: false },
+        // { src: 'https://i.imgur.com/WULQPUg.png', text: 'Case', type: "case", select: false },
         // { src: 'https://i.imgur.com/RwuNv60.png', text: 'Tản CPU', type: "cpu_fan", select: false },
         // { src: 'https://i.imgur.com/RwuNv60.png', text: 'Tản Case', type: "case_fan", select: false },
         // { src: 'https://i.imgur.com/l53NRYI.png', text: 'Màn hình', type: "monitor", select: false },

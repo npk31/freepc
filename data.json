@@ -90,7 +90,44 @@
             "type": "psu"
         }
     ],
-    "case": [],
+    "case": [
+        {
+            "tempId": "80677a472932080e91002f2740694565d2fd5f452f2c5356b52d63a5637f268c",
+            "name": "NZXT H7 Flow White",
+            "img": "https://i.imgur.com/PtWsPbT.png",
+            "daily": "GearVN",
+            "value": 2990000,
+            "preview": "https://gearvn.com/products/case-nzxt-h7-flow-white",
+            "id": "3154178b1a77ab8ed0eda78ae79f7c1399a2b55233b3198fee22893711f183ae"
+        },
+        {
+            "tempId": "d5f24d230c8cad40aa53bcfdea50f54c67cf491982bb10d3096e07e101d0ae92",
+            "name": "NZXT H7 Flow Black",
+            "img": "https://i.imgur.com/BZkvhE2.png",
+            "daily": "GearVN",
+            "value": 2990000,
+            "preview": "https://gearvn.com/products/case-nzxt-h7-flow-black?srsltid=AfmBOopr-xlN7vXJCk_4cRq0j7pN1qTiVdvi1P8mddbUb5OGYjATGS9l",
+            "id": "979e35886731c22e26be2c522fbb069499d92a7cbd1c70a237d04974dd0a254b"
+        },
+        {
+            "tempId": "80677a472932080e91002f2740694565d2fd5f452f2c5356b52d63a5637f268c",
+            "name": "NZXT H7 Flow White",
+            "img": "https://i.imgur.com/PtWsPbT.png",
+            "daily": "Hoàng Hà PC",
+            "value": 2990000,
+            "preview": "https://hoanghapc.vn/vo-case-nzxt-h7-wh",
+            "id": "4b052b42b69b4558e7c9c099c29b6868cf2137446a7e3167444fe927bd3ba680"
+        },
+        {
+            "tempId": "d5f24d230c8cad40aa53bcfdea50f54c67cf491982bb10d3096e07e101d0ae92",
+            "name": "NZXT H7 Flow Black",
+            "img": "https://i.imgur.com/BZkvhE2.png",
+            "daily": "Hoàng Hà PC",
+            "value": 2990000,
+            "preview": "https://hoanghapc.vn/vo-case-nzxt-h7-bk",
+            "id": "079978d6305b0b7b2621464c85dda76a762cf7f7e66be033decc2eb539ee97c2"
+        }
+    ],
     "ram": [
         {
             "tempId": "6526db71464bf6626ea8e80edc68bae024f94e236d8953e3ece6af2d8bc9c44c",
@@ -161,6 +198,89 @@
             "preview": "https://www.anphatpc.com.vn/vga-msi-geforce-rtx-5070-12g-vanguard-soc-launch-edition.html",
             "id": "3e17eacca191fdfc060c967471dcc86c7ccea4ebaf9ecc4616750d91d08d285c",
             "type": "vga"
+        }
+    ],
+    "cpu_fan": [
+        {
+            "tempId": "58593c65f5cb8d03d98aeb7e874e46d43d0b35d399a1c8a88780975b00fef25a",
+            "name": "Tản nhiệt khí CPU Thermalright Assassin X 120 R SE",
+            "img": "https://i.postimg.cc/rp5Sx4ct/tan-nhiet-khi-cpu-thermalright-assassin-x-120-refined-se-fan-den-4-b4fbba8478c04cb3809f772b3f42ec79.png",
+            "daily": "Nguyễn Công PC",
+            "value": 399000,
+            "preview": "https://nguyencongpc.vn/tan-nhiet-cpu-thermalright-assassin-x-120-refined-se-ax120-r-se-v2-rgb?srsltid=AfmBOoqKax-IDlQTup6h-LSoITKqOon32IThrVnzbr_J42OeR6rS1o6e",
+            "id": "d26a565d35f6c4e9c8bf7aa92f9b571d5df00b0606145b1d9ece6546f08fa548"
+        },
+        {
+            "tempId": "58593c65f5cb8d03d98aeb7e874e46d43d0b35d399a1c8a88780975b00fef25a",
+            "name": "Tản nhiệt khí CPU Thermalright Assassin X 120 R SE",
+            "img": "https://i.postimg.cc/rp5Sx4ct/tan-nhiet-khi-cpu-thermalright-assassin-x-120-refined-se-fan-den-4-b4fbba8478c04cb3809f772b3f42ec79.png",
+            "daily": "Hot Gear",
+            "value": 390000,
+            "preview": "https://hotgear.vn/products/tan-nhiet-khi-assassin-x-120-refined-se-argb",
+            "id": "55426546132f1c01305202f882751e0f2d52e201ddbd461dccac4a5bd1ae1385"
+        },
+        {
+            "tempId": "58593c65f5cb8d03d98aeb7e874e46d43d0b35d399a1c8a88780975b00fef25a",
+            "name": "Tản nhiệt khí CPU Thermalright Assassin X 120 R SE",
+            "img": "https://i.postimg.cc/rp5Sx4ct/tan-nhiet-khi-cpu-thermalright-assassin-x-120-refined-se-fan-den-4-b4fbba8478c04cb3809f772b3f42ec79.png",
+            "daily": "TPassion Store",
+            "value": 369000,
+            "preview": "https://shopee.vn/T%E1%BA%A3n-nhi%E1%BB%87t-kh%C3%AD-CPU-Thermalright-Assassin-X-120-Refined-SE-TL-AX120R-SE-AX120-R-SE-ARGB-LED-White-Tr%E1%BA%AFng-Ch%C3%ADnh-h%C3%A3ng-i.1218975529.24221397963",
+            "id": "ec23e110ceb162c9c27069ed68872a5ceb4dc9a9b91cda628d129d6afe3adae3"
+        }
+    ],
+    "case_fan": [
+        {
+            "tempId": "7f532c797341f0b89cb2944df9cab298a10087cfe23a5d34b382dcf410096fca",
+            "name": "Tản Case Arctic P12 PWM PST Fan Black",
+            "img": "https://i.postimg.cc/8c9NmjBq/Quat-tan-nhiet-Arctic-P12-PWM-PST-Black-4.png",
+            "daily": "Hot Gear",
+            "value": 210000,
+            "preview": "https://hotgear.vn/products/quat-tan-nhiet-arctic-p12-pwm-pst-fan-black-acfan00120a",
+            "id": "7f532c797341f0b89cb2944df9cab298a10087cfe23a5d34b382dcf410096fca",
+            "type": "case_fan"
+        },
+        {
+            "tempId": "7f532c797341f0b89cb2944df9cab298a10087cfe23a5d34b382dcf410096fca",
+            "name": "Tản Case Arctic P12 PWM PST Fan Black",
+            "img": "https://i.postimg.cc/8c9NmjBq/Quat-tan-nhiet-Arctic-P12-PWM-PST-Black-4.png",
+            "daily": "TPassion Store",
+            "value": 237000,
+            "preview": "https://shopee.vn/Qu%E1%BA%A1t-t%E1%BA%A3n-nhi%E1%BB%87t-Fan-Case-Arctic-F8-F9-F12-F14-P8-P12-P14-Max-White-P14-PWM-PST-BioniX-Slim-Ch%C3%ADnh-h%C3%A3ng-%C3%AAm-b%E1%BB%81n-i.1218975529.24421194730?sp_atk=91acf02d-1d29-483b-adf0-36b32498f9ef&xptdk=91acf02d-1d29-483b-adf0-36b32498f9ef",
+            "id": "d996a165eeaccd3c8a54c47243446ed4a73e1900fcadf662330ea858c7a405a7"
+        }
+    ],
+    "other": [
+        {
+            "tempId": "6cb05302691cc210d5d6fad35e45bc82d250505e5eeaee848bccde0c4459f783",
+            "name": "Keo tản nhiệt Arctic MX4 (2g)",
+            "img": "https://i.postimg.cc/dQyHs5hJ/image-removebg-preview-5.png",
+            "daily": "TPassion Store",
+            "value": 110000,
+            "preview": "https://shopee.vn/Keo-t%E1%BA%A3n-nhi%E1%BB%87t-Arctic-MX4-MX5-MX6-2g-4g-8g-20g-45g-M%E1%BA%ABu-m%E1%BB%9Bi-MX-4-MX-5-MX-6-n%C4%83m-2025-hi%E1%BB%87u-n%C4%83ng-cao-QR-Check-i.1218975529.25671214865",
+            "id": "6ef6b58e0fe78e70e4d8cf8553a37f6e1b6ab416394c61537f5b6bf87ea97991"
+        },
+        {
+            "tempId": "20d217f56ecc7a7234c4eea68be14f45cf6984049c9dd4a822686bb016b40ead",
+            "name": "Khung Chống Cong CPU THERMALRIGHT (LGA 1700)",
+            "img": "https://i.postimg.cc/c4sdftyt/image-removebg-preview-6.png",
+            "daily": "TPassion Store",
+            "value": 110000,
+            "preview": "https://shopee.vn/Khung-ch%E1%BB%91ng-cong-CPU-Intel-Gen-12th-13th-14th-THERMALRIGHT-LGA1700-1851-BCF-V2-AMD-AM5-Ch%C3%ADnh-h%C3%A3ng-socket-1700-AM5-i.1218975529.24421849628?sp_atk=5de10f90-c5a4-4f1c-8f46-2a7088ead3dd&xptdk=5de10f90-c5a4-4f1c-8f46-2a7088ead3dd",
+            "id": "20d217f56ecc7a7234c4eea68be14f45cf6984049c9dd4a822686bb016b40ead",
+            "type": "other"
+        }
+    ],
+    "monitor": [
+        {
+            "tempId": "59f37efdfc4e7dd20193929854130780767f1418216909ce67e8e9acfd418d21",
+            "name": "Màn hình Gaming LG UltraGear 24GS60F-B 24 inch (FHD/IPS/180HZ/1MS)",
+            "img": "https://i.postimg.cc/j5sMMTsc/11181-man-hinh-gaming-lg-27gs60f-b-1-removebg-preview.png",
+            "daily": "Cellphone S",
+            "value": 3150000,
+            "preview": "https://cellphones.com.vn/man-hinh-gaming-lg-ultragear-24gs60f-b-24-inch.html",
+            "id": "59f37efdfc4e7dd20193929854130780767f1418216909ce67e8e9acfd418d21",
+            "type": "monitor"
         }
     ]
 }
